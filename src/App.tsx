@@ -1,10 +1,10 @@
 function App() {
   return (
-    <div>
-      <header className="inline-flex">
-        <h1>Britlex</h1>
+    <div className="max-w-[1600px] max-h-[4642px]">
+      <header className="flex justify-between">
+        <img className="ml-[129px] mt-[57px]" src="png/Britlex.png" />
         <nav>
-          <ul className="inline-grid gap-4">
+          <ul className="flex justify-center gap-4 w-[772px] h-[30px] mt-[72px] poppins">
             <li>
               <a href="">Home</a>
             </li>
@@ -20,14 +20,10 @@ function App() {
             <li>
               <a href="">Pricing</a>
             </li>
-
-            <li>
-              <a href="">Contacts</a>
-            </li>
           </ul>
         </nav>
 
-        <button className="rounded-xl">Let's Talk</button>
+        <button className="mt-[72px] mr-[188px]">Let's Talk</button>
       </header>
     </div>
   );
