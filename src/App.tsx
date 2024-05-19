@@ -33,13 +33,11 @@ function App() {
           Let's Talk
         </button>
       </header>
-      <body className="mt-[115px]">
-        <div className="flex justify-between container mx-auto">
+      <div className="mt-[115px] flex">
+        <div className="flex-col justify-between container mx-auto">
           <div className="flex items-center container">
             <p className="font-semibold text-[64px] line-clamp-3">
-              Learn
-              <br /> Any Foreign
-              <br /> Language
+              Learn Any Foreign Language
             </p>
             <img
               src="png/light-bulb-svgrepo-com 1.svg"
@@ -54,6 +52,7 @@ function App() {
             Get started
           </button>
         </div>
+
         <div>
           <img
             src="img/Learning languages-bro 1.svg"
@@ -61,12 +60,12 @@ function App() {
           />
         </div>
 
-        <h1>Skills</h1>
+        {/* <h1>Skills</h1>
 
         <div>
           <img src="img/Shared goals-bro 1.svg" />
-        </div>
-      </body>
+        </div> */}
+      </div>
     </div>
   );
 }
